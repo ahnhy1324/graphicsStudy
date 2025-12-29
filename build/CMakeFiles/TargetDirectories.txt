@@ -1,0 +1,3 @@
+/home/mache/GraphicsCode/build/CMakeFiles/OpenglDemo.dir
+/home/mache/GraphicsCode/build/CMakeFiles/edit_cache.dir
+/home/mache/GraphicsCode/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,28 @@
+#pragma once
+
+/* #undef VERSION_MAJOR */
+/* #undef VERSION_MINOR */
+#define VERSION_PATCH	1
+
+#ifndef VERSION_MAJOR
+	#define VERSION_MAJOR 0
+#endif
+#ifndef VERSION_MIJOR
+	#define VERSION_MINOR 0
+#endif
+#ifndef VERSION_PATCH
+	#define VERSION_PATCH 0
+#endif
+
+#define START_MESSAGE \
+	printf("################################################\n");\
+	printf("#                                              #\n");\
+	printf("#        OpenGL Graphics Demo Study            #\n");\
+	printf("#                                              #\n");\
+	printf("#     Build Date at : %s  %s    #\n",__DATE__,__TIME__);\
+	printf("#     Ver. %2d.%2d.%2d.                           #\n",\
+			VERSION_MAJOR, VERSION_MINOR,VERSION_PATCH);\
+	printf("#                                              #\n");\
+	printf("#                                              #\n");\
+	printf("#                                              #\n");\
+	printf("################################################\n");
